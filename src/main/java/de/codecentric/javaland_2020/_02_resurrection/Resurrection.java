@@ -7,13 +7,12 @@ public class Resurrection {
     public static void main(String[] args) throws Exception {
         resurrectron = new Resurrecting();
         System.out.println(resurrectron);
-        resurrectron = null;
-        System.gc();
-        Thread.sleep(1000);
-        System.out.println(resurrectron);
-        resurrectron = null;
-        System.gc();
-        Thread.sleep(1000);
-        System.out.println(resurrectron);
+
+        for (int i = 0; i < 10; i++){
+            resurrectron = null;
+            System.gc();
+            Thread.sleep(100);
+            System.out.println(resurrectron);
+        }
     }
 }
