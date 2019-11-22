@@ -2,17 +2,15 @@ package de.codecentric.javaland_2020._02_resurrection;
 
 public class Resurrection {
 
-    static Object resurrectron;
+    static Object immortal = new Immortal();
 
     public static void main(String[] args) throws Exception {
-        resurrectron = new Resurrecting();
-        System.out.println(resurrectron);
 
         for (int i = 0; i < 10; i++){
-            resurrectron = null;
+            System.out.println(immortal);
+            immortal = null;
             System.gc();
-            Thread.sleep(100);
-            System.out.println(resurrectron);
+            Thread.sleep(1);
         }
     }
 }
