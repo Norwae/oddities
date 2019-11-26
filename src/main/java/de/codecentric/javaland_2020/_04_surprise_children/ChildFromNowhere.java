@@ -2,11 +2,6 @@ package de.codecentric.javaland_2020._04_surprise_children;
 
 
 public class ChildFromNowhere {
-
-    private static final class Token {
-
-    }
-
     private interface UnimplementedInterface {
         String foo();
         String bar(int x, int y);
