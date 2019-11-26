@@ -1,5 +1,8 @@
 package de.codecentric.javaland_2020._02_resurrection;
 
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+
 public class Immortal {
 
     private class Resurrector {
@@ -12,4 +15,8 @@ public class Immortal {
 
     private Resurrector resurrector = new Resurrector();
 
+    @Override
+    public String toString() {
+        return LocalTime.now().truncatedTo(ChronoUnit.SECONDS) + ": " + "Still alive";
+    }
 }
