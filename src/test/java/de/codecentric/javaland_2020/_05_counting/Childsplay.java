@@ -1,7 +1,7 @@
 package de.codecentric.javaland_2020._05_counting;
 
 public class Childsplay {
-    static void fun () {
+    static {
         try {
             Class<?>[] declaredClasses = Integer.class.getDeclaredClasses();
             var cacheField = declaredClasses[0].getDeclaredField("cache");
