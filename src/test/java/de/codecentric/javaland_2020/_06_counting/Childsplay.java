@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._05_counting;
+package de.codecentric.javaland_2020._06_counting;
 
 public class Childsplay {
     static {
