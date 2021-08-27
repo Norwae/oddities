@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._05_surprise_children;
+package de.codecentric.secrets_of_java._05_surprise_children;
 
 import java.lang.reflect.Proxy;
 import java.util.Arrays;

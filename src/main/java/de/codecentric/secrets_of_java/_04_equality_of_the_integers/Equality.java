@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._04_equality_of_the_integers;
+package de.codecentric.secrets_of_java._04_equality_of_the_integers;
 
 public class Equality {
     public static void main(String[] args) {

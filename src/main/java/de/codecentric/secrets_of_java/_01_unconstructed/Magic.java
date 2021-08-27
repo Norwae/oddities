@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._01_unconstructed;
+package de.codecentric.secrets_of_java._01_unconstructed;
 
 import java.io.ByteArrayInputStream;
 import java.io.ObjectInputStream;

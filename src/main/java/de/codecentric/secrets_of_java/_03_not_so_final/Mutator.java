@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._03_not_so_final;
+package de.codecentric.secrets_of_java._03_not_so_final;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

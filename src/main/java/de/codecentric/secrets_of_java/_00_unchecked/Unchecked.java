@@ -1,8 +1,8 @@
-package de.codecentric.javaland_2020._00_unchecked;
+package de.codecentric.secrets_of_java._00_unchecked;
 
 import java.io.IOException;
 
-import static de.codecentric.javaland_2020._00_unchecked.Loophole._throw;
+import static de.codecentric.secrets_of_java._00_unchecked.Loophole._throw;
 
 
 public class Unchecked {

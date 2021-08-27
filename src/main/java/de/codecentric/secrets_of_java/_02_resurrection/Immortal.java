@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._02_resurrection;
+package de.codecentric.secrets_of_java._02_resurrection;
 
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;

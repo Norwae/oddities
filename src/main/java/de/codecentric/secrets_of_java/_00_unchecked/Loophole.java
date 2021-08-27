@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._00_unchecked;
+package de.codecentric.secrets_of_java._00_unchecked;
 
 class Loophole {
     private static class Holder<E extends Throwable>  {

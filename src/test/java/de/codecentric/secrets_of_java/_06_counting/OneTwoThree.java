@@ -1,4 +1,4 @@
-package de.codecentric.javaland_2020._06_counting;
+package de.codecentric.secrets_of_java._06_counting;
 
 import java.util.Arrays;
 

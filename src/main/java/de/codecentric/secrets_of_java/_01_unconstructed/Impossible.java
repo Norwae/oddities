@@ -1,8 +1,8 @@
-package de.codecentric.javaland_2020._01_unconstructed;
+package de.codecentric.secrets_of_java._01_unconstructed;
 
 import java.io.Serializable;
 
-import static de.codecentric.javaland_2020._01_unconstructed.Magic.getImpossible;
+import static de.codecentric.secrets_of_java._01_unconstructed.Magic.getImpossible;
 
 public class Impossible implements Serializable {
     private static final long serialVersionUID = 6407696445704641362L;
