@@ -1,4 +1,4 @@
-package de.codecentric.secrets_of_java._07_universes;
+package de.codecentric.secrets_of_java._03_universes;
 
 public class EvilTwin {
     public static void main(String[] args) throws Exception {

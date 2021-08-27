@@ -1,4 +1,4 @@
-package de.codecentric.secrets_of_java._03_not_so_final;
+package de.codecentric.secrets_of_java._07_everything_changes;
 
 public class SurpriseMutation {
     private final int value;
