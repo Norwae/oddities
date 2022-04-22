@@ -5,7 +5,9 @@ public class EvilTwin {
         Class<? extends Terrans> federation = Universe.getOurUniverse().getClass();
         Class<? extends Terrans> empire = Universe.getMirrorUniverse().getClass();
 
-        System.out.println(empire.getName().equals(federation.getName()));
-        System.out.println(empire.equals(federation));
+        System.out.println(empire.getName());
+        System.out.println(federation.getName());
+        System.out.println("Name equals:" + empire.getName().equals(federation.getName()));
+        System.out.println("Class equals:" + empire.equals(federation));
     }
 }
